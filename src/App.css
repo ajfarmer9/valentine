@@ -1,0 +1,135 @@
+/* General styles for the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9e0e0;
+  color: #333;
+  line-height: 1.6;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Heading */
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #e63946;
+  margin-bottom: 2rem;
+}
+
+/* Reveal button */
+.reveal-button {
+  background-color: #e63946;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.reveal-button:hover {
+  background-color: #d62828;
+}
+
+/* Message box */
+.message {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* New message button */
+.new-message-button {
+  background-color: #457b9d;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.new-message-button:hover {
+  background-color: #1d3557;
+}
+
+
+
+
+
+
+
+
+
+
+/* Base button styles */
+.btn {
+  background-color: #e63946;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.125rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d62828;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.8);
+}
+
+/* Additional classes for customization */
+.btn-lg {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.25rem;
+}
+
+.btn-sm {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.btn-secondary {
+  background-color: #457b9d;
+}
+
+.btn-secondary:hover {
+  background-color: #1d3557;
+}
