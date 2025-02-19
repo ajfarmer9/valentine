@@ -20,7 +20,9 @@ function App() {
     "With you, love feels easy, natural, and endless. I am so blessed to have you in my life. 🌟",
     "No matter where we go or what we do, as long as I’m with you, I’m home. 🏡",
     "You make the ordinary feel extraordinary just by being in my life. 🌈",
-    "You are my person, my heart, my everything. I love you beyond words. 💞"
+    "You are my person, my heart, my everything. I love you beyond words. 💞",
+    "💖You are a great mother💖",
+    "You have a permanent place in my heart"
   ];
 
   const [revealed, setRevealed] = useState(false);
